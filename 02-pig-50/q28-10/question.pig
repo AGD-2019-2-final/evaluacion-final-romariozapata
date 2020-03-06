@@ -39,4 +39,3 @@ DUMP Resp;
 
 
 STORE Resp INTO 'output' USING PigStorage(',');
-
