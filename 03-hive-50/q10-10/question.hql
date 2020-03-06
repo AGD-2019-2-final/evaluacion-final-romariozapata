@@ -30,4 +30,4 @@ STORED AS TEXTFILE
 SELECT key,COUNT(key)
 FROM t0
 LATERAL VIEW explode(c3) adTable AS key,value
-GROUP BY keys
+GROUP BY key
